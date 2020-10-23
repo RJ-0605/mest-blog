@@ -1,5 +1,5 @@
 body {
-	background-image:url(http://getwallpapers.com/wallpaper/full/4/f/d/573323.jpg) ;
+	background-color:white ;
 	background-size: cover;
    background-repeat: no-repeat;
     height: auto;
@@ -16,4 +16,35 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+
+/* style made changes for theme context */
+
+.light {
+  background-color: white;
+  color: black;
+}
+
+.dark {
+  background-color: black;
+  color: white
+}
+
+.light a {
+  color: blue !important;
+}
+
+.dark a {
+  color: yellow !important;
+}
+
+.light button {
+  color: white;
+  background-color: black;
+}
+
+.dark button {
+  color: black;
+  background-color: white;
 }
