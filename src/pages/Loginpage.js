@@ -3,15 +3,19 @@ import Container from '../component/Container';
 import Nav from '../component/Navbar';
 import Footer from '../component/Footer';
 import  { login } from '../controllers/user_controller';
+import { useHistory } from 'react-router-dom';
 
 export default function Login() {
 
   const [username, setUsername] = useState("");
   const [password, setPassword] = useState("");
+  const history = useHistory();
 
   function handleLogin(e) {
     e.preventDefault(); 
-    login(username, password);
+    if(login(username, password)) {
+      history.goBack()
+    }
   }
 
   return(

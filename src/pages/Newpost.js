@@ -14,7 +14,7 @@ export default function NewPost() {
 
   function handleCreatePost(e) {
     e.preventDefault();
-    
+
     createNewPost(title, subTitle, imagelink, content, () => {
       setTitle("");
       setSubTitle("");
@@ -42,7 +42,7 @@ export default function NewPost() {
           </div>
           
           <div class="form-group">
-            <label htmlFor="image">Title</label>
+            <label htmlFor="image">Image</label>
             <input type="text" class="form-control" id="image" placeholder="Enter an image url" value={imagelink} onChange={(e) => setImagelink(e.target.value)} />
           </div>
           <button className="btn btn-primary" onClick={ handleCreatePost }>Create Post</button>

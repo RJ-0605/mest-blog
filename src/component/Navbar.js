@@ -7,7 +7,7 @@ import { logout, getUserLoggedIn } from '../controllers/user_controller';
 
 export default function Navbar() {
 
-  const [isLoggedIn, setIsLoggedIn] = useState(false);
+  const [isLoggedIn, setIsLoggedIn] = useState(getUserLoggedIn());
   const currentTheme = useContext(Theme)[0];
 
   function handleLogout() {
@@ -35,7 +35,7 @@ export default function Navbar() {
             }
             { isLoggedIn &&
               <li className="nav-item">
-                <NavLink className="nav-link" to="/login">Create New Post</NavLink>
+                <NavLink className="nav-link" to="/newpost">Create New Post</NavLink>
               </li>
             } 
            { isLoggedIn && 
