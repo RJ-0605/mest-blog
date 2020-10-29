@@ -26,6 +26,7 @@ import { Link } from "react-router-dom";
 import { ThemeContext } from './ThemeProvider';
 import Button from './Button';
 
+
 function MainPage() {
 
     const currentTheme = useContext(ThemeContext)
@@ -42,7 +43,8 @@ function MainPage() {
 
         </div >
     )
-}
+} 
+
 
 export default MainPage;
 
