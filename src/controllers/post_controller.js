@@ -108,5 +108,29 @@ export function upvotePost( post_id ) {
 
 export function downvotePost ( post_id ) {
   getPostById(post_id).downvotes++;
+}
 
+export function createNewPost(title, sub_title, image, content, callback) {
+  const newPost = {};
+
+  newPost.title = title;
+  newPost.subtitle = sub_title;
+  newPost.content = content;
+  newPost.img = image;
+  newPost.comments = [];
+  newPost.id = getNewId()
+
+  __posts.unshift(newPost);
+
+  callback();
+}
+
+function getNewId() {
+  let postLength = __posts.length + 2;
+  postLength = "" + postLength + "";
+  while(postLength.length < 3) {
+    postLength = "0" + postLength;
+  }
+
+  return postLength;
 }

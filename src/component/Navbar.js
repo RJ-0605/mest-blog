@@ -1,11 +1,19 @@
-import React, { useContext } from 'react';
+import React, { useContext, useState } from 'react';
 import { NavLink } from 'react-router-dom';
 import ToggleTheme from './ToggleTheme';
 import { Theme } from './ThemeProvider';
+import { logout, getUserLoggedIn } from '../controllers/user_controller';
+
 
 export default function Navbar() {
 
+  const [isLoggedIn, setIsLoggedIn] = useState(false);
   const currentTheme = useContext(Theme)[0];
+
+  function handleLogout() {
+    logout();
+    setIsLoggedIn(getUserLoggedIn())
+  }
 
   return (
     <div>
@@ -20,9 +28,21 @@ export default function Navbar() {
             <li className="nav-item active">
               <NavLink className="nav-link" to="/">Home <span className="sr-only">(current)</span></NavLink>
             </li>
+            { !isLoggedIn &&
+              <li className="nav-item">
+                <NavLink className="nav-link" to="/login">Login</NavLink>
+              </li>
+            }
+            { isLoggedIn &&
+              <li className="nav-item">
+                <NavLink className="nav-link" to="/login">Create New Post</NavLink>
+              </li>
+            } 
+           { isLoggedIn && 
             <li className="nav-item">
-              <NavLink className="nav-link" to="/article">Articles</NavLink>
+                <span className="nav-link" onClick={handleLogout} >Logout</span>
             </li>
+            }
             <li className="nav-item">
               <ToggleTheme />
             </li>
