@@ -1,4 +1,4 @@
-import img from '../images/image.jpg';
+import img from '../images/microphone.jpg';
 import img1 from '../images/awesomebaby.jpg';
 import img2 from '../images/cat.jpg';
 import img3 from '../images/couples.jpg';
@@ -8,18 +8,18 @@ const __posts = [
   {
     img: img,
     id: "001",
-    title: "A title",
-    subtitle: "A subtitle",
-    content: `1. Build a customer email list and market directly to them
-      One of the most important aspects of having your own website is that you can market directly to website visitors and customers. Unlike marketplaces, where people who buy your product are the customers of the marketplace,
-      selling directly to consumers on your website means you get to collect their contact information.
-      When you have your customers’ email addresses, you can send them email marketing promotions, offer discounts, and announce new products.
+    title: "Studio Equipment",
+    subtitle: "Leasing for Multimedia: Audio & Studio Equipment",
+    content: `Though most industries suffered downturns during the Great Recession, traditional studio recording is still undergoing a paradigm shift that began with the advent of the internet. 
+              File sharing and digital downloads have changed the way consumers buy music, and the advances in home studio equipment has diminished the need for professional outfits. 
+              Exacerbating this shift in production, many television and film companies are transitioning to in-house studios for their audio needs. This may seem like a lot of doom and gloom, but it is actually a rare opportunity.
 
-      Getting repeat buyers is much more difficult on a marketplace, because you don’t have direct access to your customers. This gives you fewer opportunities to provide good customer service and promote your other products. 
-      Since it’s easier and cheaper to retain a customer than it is to get a new one, communicating with existing customers is a necessary part of generating revenue for your business.
+              Currently the audio recording industry generates upwards of $800 million annually, with over 4,600 firms in operation and the majority of those firms concentrated in the West, Mid-Atlantic and Southeast regions of the United States. 
+              It’s true that larger studios are facing diminishing returns and the industry as a whole is slated to decline in the next decade, but that is exactly what makes this an exciting time for entrepreneurs.
 
-      Not only do you know who has bought from you in the past, but you also know what they bought, how much they spent, and what they are interested in. You can use this information to influence and suggest future purchases.
-      `,
+              There will always be a need for professional sound recording equipment, and with so many young artists turning to the internet for exposure, the demand for the equipment – if not the corporate face behind it – is greater than ever. In addition, many advertising firms are using the internet as a new medium of expression, 
+              creating marketing campaigns that are slick, fun and professional – more than just the commercials of the past. For these entities, recording facilities as well as post-production expertise are essential to their branding.
+          `,
     upvotes: 10,
     downvotes: 4,
     comments: ["this is a comment on the first post"]
@@ -27,18 +27,15 @@ const __posts = [
   {
     img: img1,
     id: "002",
-    title: "A title",
-    subtitle: "A subtitle",
-    content: `1. Build a customer email list and market directly to them
-      One of the most important aspects of having your own website is that you can market directly to website visitors and customers. Unlike marketplaces, where people who buy your product are the customers of the marketplace,
-      selling directly to consumers on your website means you get to collect their contact information.
-      When you have your customers’ email addresses, you can send them email marketing promotions, offer discounts, and announce new products.
+    title: "Baby Products",
+    subtitle: "Baby Product Market Size, Share & Trends Analysis Report By Product",
+    content: `The global baby product market size was valued at USD 10.91 billion in 2017 and is expected to register a CAGR of 5.5% over the forecast period on account of rising spending capability and changing lifestyles. 
+              Rapid urbanization and growing middle-class population across several developing regions are driving the market further. Changing lifestyle, particularly in developing countries, 
+              has encouraged the adoption of convenience-oriented routine, making these items desirable, which will fuel the industry growth over the forecast period.
 
-      Getting repeat buyers is much more difficult on a marketplace, because you don’t have direct access to your customers. This gives you fewer opportunities to provide good customer service and promote your other products. 
-      Since it’s easier and cheaper to retain a customer than it is to get a new one, communicating with existing customers is a necessary part of generating revenue for your business.
-
-      Not only do you know who has bought from you in the past, but you also know what they bought, how much they spent, and what they are interested in. You can use this information to influence and suggest future purchases.
-      `,
+              Moreover, rising consumer awareness regarding child health is boosting the sales of these products, thereby augmenting industry growth. Manufacturers, with the support of government and NGOs, have been promoting baby hygiene,
+               which in turn will fuel the demand for various cosmetics and toiletries like skin, hair care, and other products. Baby food is the second-largest segment and is expected to gain significant share over the forecast period.
+           `,
     upvotes: 0,
     downvotes: 0,
     comments: []
@@ -46,17 +43,16 @@ const __posts = [
   {
     img: img2,
     id: "003",
-    title: "A title",
-    subtitle: "A subtitle",
-    content: `1. Build a customer email list and market directly to them
-      One of the most important aspects of having your own website is that you can market directly to website visitors and customers. Unlike marketplaces, where people who buy your product are the customers of the marketplace,
-      selling directly to consumers on your website means you get to collect their contact information.
-      When you have your customers’ email addresses, you can send them email marketing promotions, offer discounts, and announce new products.
+    title: "Retail Pet Stores",
+    subtitle: "Brief Summary of Laws Affecting Retail Pet Stores Ashley Duncan(2006)",
+    content: `Over half of all households in America have at least one pet. 
+            The most common types of animals kept as pets are birds, cats, dogs, fish, reptiles, and small animals such as hamsters and guinea pigs. While some of these animals are available for adoption at local humane societies, 
+             most people buy their pets from retail pet stores. Since there are so many animals being housed at retail pet stores, many welfare issues exist, including the availability of veterinary care, food and water, proper housing, and proper sanitation.
 
-      Getting repeat buyers is much more difficult on a marketplace, because you don’t have direct access to your customers. This gives you fewer opportunities to provide good customer service and promote your other products. 
-      Since it’s easier and cheaper to retain a customer than it is to get a new one, communicating with existing customers is a necessary part of generating revenue for your business.
-
-      Not only do you know who has bought from you in the past, but you also know what they bought, how much they spent, and what they are interested in. You can use this information to influence and suggest future purchases.
+            The health and safety of animals in pet stores is an important issue. Unfortunately, there is no federal law which regulates the care of animals in all pet stores. To find laws that address the care of animals in pet stores, 
+            you must look at state laws.
+            There are currently fifteen states which do not have any laws regulating pet stores. 
+           The pet store laws in the other thirty-five states plus the District of Columbia greatly vary.
       `,
     upvotes: 0,
     downvotes: 0,
@@ -65,18 +61,16 @@ const __posts = [
   {
     img: img3,
     id: "004",
-    title: "A title",
-    subtitle: "A subtitle",
-    content: `1. Build a customer email list and market directly to them
-      One of the most important aspects of having your own website is that you can market directly to website visitors and customers. Unlike marketplaces, where people who buy your product are the customers of the marketplace,
-      selling directly to consumers on your website means you get to collect their contact information.
-      When you have your customers’ email addresses, you can send them email marketing promotions, offer discounts, and announce new products.
+    title: "Entertainment",
+    subtitle: "Studios release movies at home in response to COVID-19",
+    content: `TORONTO -- Streaming platforms are joining Hollywood in throwing away the rule book in hopes to attract viewers stuck inside during the COVID-19 pandemic.
 
-      Getting repeat buyers is much more difficult on a marketplace, because you don’t have direct access to your customers. This gives you fewer opportunities to provide good customer service and promote your other products. 
-      Since it’s easier and cheaper to retain a customer than it is to get a new one, communicating with existing customers is a necessary part of generating revenue for your business.
+              There was already a shakeup in how audiences consumed film and TV entertainment before the outbreak, 
+              driven by the growing number of streaming platforms and a slowdown in movie ticket sales.
 
-      Not only do you know who has bought from you in the past, but you also know what they bought, how much they spent, and what they are interested in. You can use this information to influence and suggest future purchases.
-      `,
+              But as the entertainment industry scrambles to keep up with COVID-19 developments, 
+              films are being pushed off the theatrical release slate and onto video-on-demand platforms at an unprecedented pace.
+            `,
     upvotes: 0,
     downvotes: 0,
     comments: []

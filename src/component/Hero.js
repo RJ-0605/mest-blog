@@ -5,9 +5,9 @@ export default function Hero() {
     <div className="jumbotron text-center">
       <div className="container cont-img">
         <h1 className="display-4">Welcome to Transit-gh</h1>
-        <p className="lead">This is a simple hero unit, a simple jumbotron-style component for calling extra attention to featured content or information.</p>
+        <p className="lead">We are a Business Insider for all your <b>Favorite places </b> on the internet. We Feature the latest and inspiring content for both Entrepreneurs and Non-Entrepreneurs.</p>
         <hr className="my-4"/>
-        <p>It uses utility classes for typography and spacing to space content out within the larger container.</p>
+        <p>Why Just chill , when you can chill and Earn at the same time.</p>
         <a className="btn btn-primary btn-lg" href="/" role="button">Learn more</a>
       </div>
     </div>

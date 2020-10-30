@@ -9,6 +9,8 @@ export default function ToggleTheme() {
     themeContext[1]("light");
   } 
 
+  
+
   function setDarkTheme() {
     themeContext[1]("dark");
   }

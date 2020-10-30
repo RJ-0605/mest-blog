@@ -8,6 +8,7 @@ import { logout, getUserLoggedIn } from '../controllers/user_controller';
 export default function Navbar() {
 
   const [isLoggedIn, setIsLoggedIn] = useState(getUserLoggedIn());
+
   const currentTheme = useContext(Theme)[0];
 
   function handleLogout() {
@@ -17,6 +18,7 @@ export default function Navbar() {
 
   return (
     <div>
+      
     <nav className={`navbar navbar-expand-lg navbar-${currentTheme} bg-${currentTheme} py-4`}>
       <div className="container">
         <a className="navbar-brand" href="/">Transit-gh</a>
